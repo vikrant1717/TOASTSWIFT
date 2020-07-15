@@ -89,6 +89,13 @@ public extension UIView {
                 objc_setAssociatedObject(self, &ToastKeys.queue, queue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
                 return queue
             }
+            if let queue = objc_getAssociatedObject(self, &ToastKeys.queue) as? NSMutableArray {
+                return queue
+            } else {
+                let queue = NSMutableArray()
+                objc_setAssociatedObject(self, &ToastKeys.queue, queue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                return queue
+            }
         }
     }
     
