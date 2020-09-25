@@ -32,6 +32,7 @@ class ViewController: UITableViewController {
     fileprivate struct ReuseIdentifiers {
         static let switchCellId = "switchCell"
         static let exampleCellId = "exampleCell"
+        //commented
     }
     
     // MARK: - Constructors
