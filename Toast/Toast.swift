@@ -49,6 +49,15 @@ public extension UIView {
         static var activeToasts = "com.toast-swift.activeToasts"
         static var activityView = "com.toast-swift.activityView"
         static var queue        = "com.toast-swift.queue"
+
+
+        //static var timer        = "com.toast-swift.timer"
+        //static var duration     = "com.toast-swift.duration"
+       // static var point        = "com.toast-swift.point"
+        //static var completion   = "com.toast-swift.completion"
+        //static var activeToasts = "com.toast-swift.activeToasts"
+        //static var activityView = "com.toast-swift.activityView"
+        //static var queue        = "com.toast-swift.queue"        
     }
     
     /**
