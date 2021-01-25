@@ -43,6 +43,7 @@ class ViewController: UITableViewController {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("not used")
+         //fatalError("not used")
     }
     
     // MARK: - View Lifecycle
