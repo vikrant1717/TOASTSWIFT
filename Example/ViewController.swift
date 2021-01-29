@@ -94,6 +94,8 @@ extension ViewController {
             return "SETTINGS"
         } else {
             return "EXAMPLES"
+
+            // commented
         }
     }
     
